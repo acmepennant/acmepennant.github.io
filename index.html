@@ -19,6 +19,17 @@ a {
 html {
 	-webkit-text-size-adjust: 100%;
 }
+.table-wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.acme-table {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
 body {
   font-family: 'Geneva', Geneva, Verdana, Arial, sans-serif;
   font-size: 10px;
@@ -57,7 +68,8 @@ if (document.images) {
 <body bgcolor="#FFFFFF" link="#1C75BC" vlink="#1C75BC" alink="#F05A28" text="#000000">
 
 <center>
-<table style="max-width: 100%; width: 600px;" border="0" cellspacing="0" cellpadding="0">
+<div class="table wrapper">
+<table class="acme table" border="0" cellspacing="0" cellpadding="0">
 
 <!-- home header -->
 
